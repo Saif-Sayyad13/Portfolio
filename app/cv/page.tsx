@@ -7,7 +7,6 @@ import Link from "next/link"
 
 export default function CVPage() {
   const handleDownload = () => {
-    // Create a new window with the CV content for printing/saving as PDF
     const printWindow = window.open("", "_blank")
     if (printWindow) {
       printWindow.document.write(`
@@ -25,7 +24,6 @@ export default function CVPage() {
             .section h3 { margin-bottom: 5px; }
             .section p, .section li { margin-bottom: 8px; }
             ul { padding-left: 20px; }
-            .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
             @media print { body { margin: 20px; } }
           </style>
         </head>
@@ -87,21 +85,39 @@ export default function CVPage() {
             <p><strong>Savitribai Phule Pune University (2022 – 2026)</strong></p>
             <p>B.Tech in Computer Science (AI) — CGPA: 7.47 (7th Sem SGPA: 8.57)</p>
             <p>Pune, India</p>
-            <br>
+            <br />
             <p><strong>Tukaram Kayande Higher Secondary School (2022)</strong></p>
             <p>Higher Secondary Certificate (HSC) — 85.67%</p>
             <p>Maharashtra, India</p>
-            <br>
+            <br />
             <p><strong>Shakar Vidya Mandir School (2020)</strong></p>
             <p>Secondary School Certificate (SSC) — 81.40%</p>
             <p>Maharashtra, India</p>
           </div>
 
           <div class="section">
-            <h2>Leadership & Activities</h2>
-            <p><strong>Public Relations Head</strong> – AICC (GHRCEM), 2025</p>
-            <p><strong>Finance & Sponsorship Head</strong> – E-Cell (GHRCEM), 2025</p>
-            <p><strong>Volunteer</strong> – National Service Scheme (NSS), 2022 – 2025</p>
+            <h2>Campus Involvement & Leadership</h2>
+            <h3>Public Relations Head – AICC (GHRCEM) (2025)</h3>
+            <p>Led student communication initiatives and supported coordination of college-level activities.</p>
+            
+            <h3>Finance & Sponsorship Head – Entrepreneurship Cell (GHRCEM) (2025)</h3>
+            <p>Assisted with sponsorship outreach and budget handling for student entrepreneurship events.</p>
+            
+            <h3>Volunteer – National Service Scheme (NSS) (2022 – 2025)</h3>
+            <p>Actively involved in community service and social awareness programs over multiple academic years.</p>
+            
+            <h3>Event Coordination Experience</h3>
+            <p>Contributed to planning and coordination of large-scale college events, including fresher and cultural activities.</p>
+          </div>
+
+          <div class="section">
+            <h2>Certifications & Learning</h2>
+            <ul>
+              <li><strong>Generative AI Essentials for Data Analytics</strong> – Coursera</li>
+              <li><strong>Google Analytics Certification</strong> – Google Skillshop</li>
+              <li><strong>Train ML Models for Document Understanding</strong> – UiPath</li>
+            </ul>
+            <p><em>Additional certificates and detailed project documentation available upon request.</em></p>
           </div>
 
           <div class="section">
@@ -134,7 +150,6 @@ export default function CVPage() {
 
         <Card className="shadow-lg">
           <CardContent className="p-8">
-            {/* CV Content */}
             <div className="space-y-8">
               {/* Header */}
               <div className="text-center border-b-2 border-gray-300 pb-6">
@@ -258,21 +273,69 @@ export default function CVPage() {
                 </div>
               </div>
 
-              {/* Leadership & Volunteer */}
+              {/* Campus Involvement & Leadership */}
               <div>
                 <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">
-                  Leadership & Activities
+                  Campus Involvement & Leadership
                 </h2>
-                <div className="space-y-2 text-gray-700">
-                  <p>
-                    <strong>Public Relations Head</strong> – AICC (GHRCEM), 2025
-                  </p>
-                  <p>
-                    <strong>Finance & Sponsorship Head</strong> – E-Cell (GHRCEM), 2025
-                  </p>
-                  <p>
-                    <strong>Volunteer</strong> – National Service Scheme (NSS), 2022 – 2025
-                  </p>
+                <div className="space-y-4">
+                  <div>
+                    <h3 className="font-semibold mb-1">Public Relations Head – AICC (GHRCEM)</h3>
+                    <p className="text-sm text-gray-600 mb-2">2025</p>
+                    <p className="text-gray-700">
+                      Led student communication initiatives and supported coordination of college-level activities.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold mb-1">Finance & Sponsorship Head – Entrepreneurship Cell (GHRCEM)</h3>
+                    <p className="text-sm text-gray-600 mb-2">2025</p>
+                    <p className="text-gray-700">
+                      Assisted with sponsorship outreach and budget handling for student entrepreneurship events.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold mb-1">Volunteer – National Service Scheme (NSS)</h3>
+                    <p className="text-sm text-gray-600 mb-2">2022 – 2025</p>
+                    <p className="text-gray-700">
+                      Actively involved in community service and social awareness programs over multiple academic years.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold mb-1">Event Coordination Experience</h3>
+                    <p className="text-gray-700">
+                      Contributed to planning and coordination of large-scale college events, including fresher and
+                      cultural activities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Certifications & Learning */}
+              <div>
+                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">
+                  Certifications & Learning
+                </h2>
+                <div className="space-y-3">
+                  <div>
+                    <p className="font-semibold">Generative AI Essentials for Data Analytics</p>
+                    <p className="text-sm text-gray-600">Coursera</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold">Google Analytics Certification</p>
+                    <p className="text-sm text-gray-600">Google Skillshop</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold">Train ML Models for Document Understanding</p>
+                    <p className="text-sm text-gray-600">UiPath</p>
+                  </div>
+                  <div className="mt-4 pt-4 border-t">
+                    <p className="text-sm text-gray-600 italic">
+                      Additional certificates and detailed project documentation available upon request.
+                    </p>
+                  </div>
                 </div>
               </div>
 

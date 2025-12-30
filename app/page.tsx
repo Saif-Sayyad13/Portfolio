@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
-import { Mail, Phone, MapPin, Linkedin, Download } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin, Download, Award, Users } from "lucide-react"
 
 export default function Portfolio() {
   return (
@@ -131,13 +131,6 @@ export default function Portfolio() {
   </div>
 
   <div class="section">
-    <h2>Leadership & Activities</h2>
-    <p><strong>Public Relations Head</strong> – AICC (GHRCEM), 2025</p>
-    <p><strong>Finance & Sponsorship Head</strong> – E-Cell (GHRCEM), 2025</p>
-    <p><strong>Volunteer</strong> – National Service Scheme (NSS), 2022 – 2025</p>
-  </div>
-
-  <div class="section">
     <h2>Languages</h2>
     <p>English (Professional), Hindi (Native), Marathi (Native)</p>
   </div>
@@ -258,6 +251,58 @@ export default function Portfolio() {
           </CardContent>
         </Card>
 
+        {/* Campus Involvement & Leadership */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl flex items-center gap-2">
+              <Users className="w-6 h-6" />
+              Campus Involvement & Leadership
+            </CardTitle>
+            <CardDescription>Active participation in student organizations and community service</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="border-l-4 border-blue-500 pl-4">
+              <h3 className="font-semibold text-lg mb-2">Public Relations Head – AICC (GHRCEM)</h3>
+              <p className="text-sm text-gray-500 mb-2">2025</p>
+              <p className="text-gray-600">
+                Led student communication initiatives and supported coordination of college-level activities.
+              </p>
+            </div>
+
+            <Separator />
+
+            <div className="border-l-4 border-green-500 pl-4">
+              <h3 className="font-semibold text-lg mb-2">
+                Finance & Sponsorship Head – Entrepreneurship Cell (GHRCEM)
+              </h3>
+              <p className="text-sm text-gray-500 mb-2">2025</p>
+              <p className="text-gray-600">
+                Assisted with sponsorship outreach and budget handling for student entrepreneurship events.
+              </p>
+            </div>
+
+            <Separator />
+
+            <div className="border-l-4 border-orange-500 pl-4">
+              <h3 className="font-semibold text-lg mb-2">Volunteer – National Service Scheme (NSS)</h3>
+              <p className="text-sm text-gray-500 mb-2">2022 – 2025</p>
+              <p className="text-gray-600">
+                Actively involved in community service and social awareness programs over multiple academic years.
+              </p>
+            </div>
+
+            <Separator />
+
+            <div className="border-l-4 border-purple-500 pl-4">
+              <h3 className="font-semibold text-lg mb-2">Event Coordination Experience</h3>
+              <p className="text-gray-600">
+                Contributed to planning and coordination of large-scale college events, including fresher and cultural
+                activities.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* Skills */}
         <div className="grid md:grid-cols-2 gap-6">
           <Card>
@@ -329,6 +374,56 @@ export default function Portfolio() {
           </Card>
         </div>
 
+        {/* Certifications & Learning */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl flex items-center gap-2">
+              <Award className="w-6 h-6" />
+              Certifications & Learning
+            </CardTitle>
+            <CardDescription>Professional development and continuous learning</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              <div className="flex items-start gap-4 p-4 border rounded-lg hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award className="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold">Generative AI Essentials for Data Analytics</h4>
+                  <p className="text-sm text-gray-600">Coursera</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 border rounded-lg hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award className="w-6 h-6 text-green-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold">Google Analytics Certification</h4>
+                  <p className="text-sm text-gray-600">Google Skillshop</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-4 border rounded-lg hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award className="w-6 h-6 text-purple-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold">Train ML Models for Document Understanding</h4>
+                  <p className="text-sm text-gray-600">UiPath</p>
+                </div>
+              </div>
+
+              <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+                <p className="text-sm text-gray-600 text-center">
+                  Additional certificates and detailed project documentation available upon request.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* Leadership */}
         <Card>
           <CardHeader>
@@ -360,6 +455,22 @@ export default function Portfolio() {
                 <h4 className="font-semibold mb-1">NSS Volunteer</h4>
                 <p className="text-sm text-gray-600">2022 – 2025</p>
               </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Initiatives */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl">Initiatives</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div>
+              <h4 className="font-semibold mb-2">School Tiffin Service (Concept Stage)</h4>
+              <p className="text-gray-600">
+                Explored a small-scale food service idea, focusing on basic planning, cost estimation, and feasibility
+                analysis.
+              </p>
             </div>
           </CardContent>
         </Card>
