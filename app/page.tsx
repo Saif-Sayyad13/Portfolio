@@ -13,7 +13,7 @@ export default function Portfolio() {
       <header className="bg-gradient-to-r from-blue-900 to-blue-800 text-white">
         <div className="container mx-auto px-6 py-12 text-center">
           <h1 className="text-5xl font-bold mb-2">Saif Sayyad</h1>
-          <p className="text-xl mb-4 text-blue-100">Final-year B.Tech Computer Science (AI)</p>
+          <p className="text-xl mb-4 text-blue-100">B.Tech Computer Science (AI) | CGPA: 7.47</p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
             <div className="flex items-center gap-2">
@@ -70,65 +70,76 @@ export default function Portfolio() {
   </div>
 
   <div class="section">
-    <h2>Professional Summary</h2>
-    <p>Final-year B.Tech Computer Science (AI) student with hands-on experience in data analytics, Python, and deep learning. Skilled in tools like Tableau, Power BI, and SQL. Interned with IIT Patna on image processing and AI-based disaster prediction. Looking for internships or entry-level roles in data science or AI.</p>
+    <h2>Summary</h2>
+    <p>Final-year B.Tech Computer Science (AI) student with academic and internship exposure to applied machine learning and computer vision. Experience using Python to implement CNN-based models and solve problem-oriented tasks, along with foundational understanding of software development concepts such as object-oriented programming and data structures.</p>
   </div>
 
   <div class="section">
-    <h2>Education</h2>
-    <p><strong>B.Tech – Savitribai Phule Pune University (2022–2026)</strong> | CGPA: 7.65</p>
-    <p><strong>HSC – Tukaram Kayande Higher Secondary School (2022)</strong> | 85.67%</p>
-    <p><strong>SSC – Shakar Vidya Mandir School (2020)</strong> | 81.40%</p>
+    <h2>Technical Skills</h2>
+    <p><strong>AI / ML:</strong> Convolutional Neural Networks (CNNs), Basic Image Processing</p>
+    <p><strong>Programming:</strong> Python, SQL (Basics)</p>
+    <p><strong>Web Basics:</strong> HTML, CSS, JavaScript (Basics)</p>
+    <p><strong>Programming Fundamentals:</strong> Object-Oriented Programming, Data Structures (Basics)</p>
+    <p><strong>Tools:</strong> Jupyter Notebook, Google Colab, VS Code</p>
   </div>
 
   <div class="section">
-    <h2>Skills</h2>
-    <p><strong>Technical:</strong> Python (Pandas, NumPy, Seaborn), SQL, Data Cleaning, Data Visualization</p>
-    <p><strong>Tools:</strong> Power BI, Tableau, Excel (PivotTables), Jupyter Notebook</p>
-    <p><strong>Soft Skills:</strong> Leadership, Problem Solving, Communication, Time Management, Critical Thinking</p>
+    <h2>Experience</h2>
+    <h3>AI & Deep Learning Intern – IIT Patna (May 2024 – Jul 2024)</h3>
+    <p><em>Research Internship, Patna, India</em></p>
+    <ul>
+      <li>Worked on CNN-based deep learning models for disaster prediction using image-based datasets as part of a research internship</li>
+      <li>Implemented CNN architectures and applied image preprocessing techniques using Python</li>
+    </ul>
+    
+    <h3>Campus Ambassador – Pregrad (Oct 2023 – Nov 2023)</h3>
+    <p><em>Marketing & Outreach, Remote</em></p>
+    <ul>
+      <li>Promoted platform services and supported student engagement initiatives</li>
+    </ul>
   </div>
 
   <div class="section">
     <h2>Projects</h2>
     <h3>Pneumonia Detection Using CNN (Jun 2024 – Nov 2024)</h3>
     <ul>
-      <li>Built a CNN-based tool to detect pneumonia from chest X-rays</li>
-      <li>Achieved high accuracy using trained deep learning model</li>
+      <li>Designed and trained a CNN-based system to classify pneumonia from chest X-ray images</li>
+      <li>Applied image preprocessing techniques and model tuning to improve classification performance on medical image data</li>
     </ul>
     
-    <h3>Lernifyy3 – Udemy Replica (Dec 2023 – May 2024)</h3>
+    <h3>Skin Tone Detection & Recommendation System (Jun 2025 – Nov 2025)</h3>
     <ul>
-      <li>Developed a platform offering video courses, tests, and analytics</li>
-      <li>Features included daily scores, test tracking, and personal dashboards</li>
+      <li>Built a custom CNN model using the UTKFace dataset (23,000+ images) for skin-tone classification</li>
+      <li>Achieved 81.12% accuracy across five classes using batch normalization and model optimization</li>
+      <li>Project implementations and code maintained locally and available upon request</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>Internships</h2>
-    <h3>AI & Deep Learning Intern – IIT Patna (May 2024 – Jul 2024)</h3>
-    <ul>
-      <li>Worked on AI models for disaster prediction</li>
-      <li>Focused on image processing & research-based development</li>
-    </ul>
-    
-    <h3>Campus Ambassador – Pregrad (Oct 2023 – Nov 2023)</h3>
-    <ul>
-      <li>Promoted platform services & student engagement activities</li>
-    </ul>
+    <h2>Education</h2>
+    <p><strong>Savitribai Phule Pune University (2022 – 2026)</strong></p>
+    <p>B.Tech in Computer Science (AI) — CGPA: 7.47 (7th Sem SGPA: 8.57)</p>
+    <p>Pune, India</p>
+    <br />
+    <p><strong>Tukaram Kayande Higher Secondary School (2022)</strong></p>
+    <p>Higher Secondary Certificate (HSC) — 85.67%</p>
+    <p>Maharashtra, India</p>
+    <br />
+    <p><strong>Shakar Vidya Mandir School (2020)</strong></p>
+    <p>Secondary School Certificate (SSC) — 81.40%</p>
+    <p>Maharashtra, India</p>
   </div>
 
   <div class="section">
-    <h2>Leadership & Volunteer</h2>
-    <ul>
-      <li>Public Relations Head – AI Coding Club (GHRCEM)</li>
-      <li>Finance & Sponsorship Head – E-Cell (GHRCEM)</li>
-      <li>Volunteer – National Service Scheme (Jan 2024 – Present)</li>
-    </ul>
+    <h2>Leadership & Activities</h2>
+    <p><strong>Public Relations Head</strong> – AICC (GHRCEM), 2025</p>
+    <p><strong>Finance & Sponsorship Head</strong> – E-Cell (GHRCEM), 2025</p>
+    <p><strong>Volunteer</strong> – National Service Scheme (NSS), 2022 – 2025</p>
   </div>
 
   <div class="section">
     <h2>Languages</h2>
-    <p>English, Hindi, Marathi</p>
+    <p>English (Professional), Hindi (Native), Marathi (Native)</p>
   </div>
 </body>
 </html>`
@@ -157,9 +168,10 @@ export default function Portfolio() {
           </CardHeader>
           <CardContent>
             <p className="text-gray-600 leading-relaxed">
-              Final-year B.Tech Computer Science (AI) student with hands-on experience in data analytics, Python, and
-              deep learning. Skilled in tools like Tableau, Power BI, and SQL. Interned with IIT Patna on AI-based
-              disaster prediction.
+              Final-year B.Tech Computer Science (AI) student with academic and internship exposure to applied machine
+              learning and computer vision. Experience using Python to implement CNN-based models and solve
+              problem-oriented tasks, along with foundational understanding of software development concepts such as
+              object-oriented programming and data structures.
             </p>
           </CardContent>
         </Card>
@@ -173,31 +185,33 @@ export default function Portfolio() {
           <CardContent className="space-y-6">
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-semibold text-lg mb-2">Pneumonia Detection Using CNN</h3>
+              <p className="text-sm text-gray-500 mb-2">Jun 2024 – Nov 2024</p>
               <p className="text-gray-600 mb-3">
-                Built a CNN-based tool to detect pneumonia from chest X-rays with high accuracy using deep learning
-                techniques.
+                Designed and trained a CNN-based system to classify pneumonia from chest X-ray images. Applied image
+                preprocessing techniques and model tuning to improve classification performance on medical image data.
               </p>
               <div className="flex gap-2">
                 <Badge variant="secondary">Python</Badge>
-                <Badge variant="secondary">TensorFlow</Badge>
                 <Badge variant="secondary">CNN</Badge>
                 <Badge variant="secondary">Medical AI</Badge>
+                <Badge variant="secondary">Image Processing</Badge>
               </div>
             </div>
 
             <Separator />
 
-            <div className="border-l-4 border-green-500 pl-4">
-              <h3 className="font-semibold text-lg mb-2">Lernifyy3 – Udemy Replica</h3>
+            <div className="border-l-4 border-purple-500 pl-4">
+              <h3 className="font-semibold text-lg mb-2">Skin Tone Detection & Recommendation System</h3>
+              <p className="text-sm text-gray-500 mb-2">Jun 2025 – Nov 2025</p>
               <p className="text-gray-600 mb-3">
-                Developed a comprehensive e-learning platform offering video courses, interactive tests, and detailed
-                analytics with dashboards and scoring systems.
+                Built a custom CNN model using the UTKFace dataset (23,000+ images) for skin-tone classification.
+                Achieved 81.12% accuracy across five classes using batch normalization and model optimization.
               </p>
               <div className="flex gap-2">
-                <Badge variant="secondary">React</Badge>
-                <Badge variant="secondary">Node.js</Badge>
-                <Badge variant="secondary">MongoDB</Badge>
-                <Badge variant="secondary">Analytics</Badge>
+                <Badge variant="secondary">Python</Badge>
+                <Badge variant="secondary">CNN</Badge>
+                <Badge variant="secondary">Computer Vision</Badge>
+                <Badge variant="secondary">UTKFace Dataset</Badge>
               </div>
             </div>
           </CardContent>
@@ -216,11 +230,14 @@ export default function Portfolio() {
               </div>
               <div className="md:w-3/4">
                 <h3 className="font-semibold text-lg">AI & Deep Learning Intern</h3>
-                <p className="text-blue-600 font-medium mb-2">IIT Patna</p>
-                <p className="text-gray-600">
-                  Worked on advanced image processing techniques and AI-based disaster prediction systems, contributing
-                  to research in emergency response technologies.
-                </p>
+                <p className="text-blue-600 font-medium mb-2">IIT Patna - Research Internship</p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                  <li>
+                    Worked on CNN-based deep learning models for disaster prediction using image-based datasets as part
+                    of a research internship
+                  </li>
+                  <li>Implemented CNN architectures and applied image preprocessing techniques using Python</li>
+                </ul>
               </div>
             </div>
 
@@ -232,10 +249,9 @@ export default function Portfolio() {
               </div>
               <div className="md:w-3/4">
                 <h3 className="font-semibold text-lg">Campus Ambassador</h3>
-                <p className="text-blue-600 font-medium mb-2">Pregrad</p>
+                <p className="text-blue-600 font-medium mb-2">Pregrad - Marketing & Outreach</p>
                 <p className="text-gray-600">
-                  Led promotional activities and student outreach programs, enhancing brand visibility and engagement
-                  across campus.
+                  Promoted platform services and supported student engagement initiatives.
                 </p>
               </div>
             </div>
@@ -251,21 +267,35 @@ export default function Portfolio() {
             <CardContent>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-medium mb-2">Programming & Data Science</h4>
+                  <h4 className="font-medium mb-2">AI / ML</h4>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>Python</Badge>
-                    <Badge>Pandas</Badge>
-                    <Badge>NumPy</Badge>
-                    <Badge>Seaborn</Badge>
-                    <Badge>SQL</Badge>
+                    <Badge>CNNs</Badge>
+                    <Badge>Image Processing</Badge>
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-medium mb-2">Analytics & Visualization</h4>
+                  <h4 className="font-medium mb-2">Programming</h4>
                   <div className="flex flex-wrap gap-2">
-                    <Badge>Tableau</Badge>
-                    <Badge>Power BI</Badge>
-                    <Badge>Excel</Badge>
+                    <Badge>Python</Badge>
+                    <Badge>SQL</Badge>
+                    <Badge>OOP</Badge>
+                    <Badge>Data Structures</Badge>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium mb-2">Web Basics</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>HTML</Badge>
+                    <Badge>CSS</Badge>
+                    <Badge>JavaScript</Badge>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium mb-2">Tools</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>Jupyter Notebook</Badge>
+                    <Badge>Google Colab</Badge>
+                    <Badge>VS Code</Badge>
                   </div>
                 </div>
               </div>
@@ -274,25 +304,25 @@ export default function Portfolio() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-xl">Soft Skills</CardTitle>
+              <CardTitle className="text-xl">Education</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="grid grid-cols-2 gap-3">
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span>Leadership</span>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-semibold">Savitribai Phule Pune University</h4>
+                  <p className="text-sm text-gray-600">B.Tech in Computer Science (AI)</p>
+                  <p className="text-sm text-gray-600">2022 – 2026</p>
+                  <p className="text-sm font-medium text-blue-600">CGPA: 7.47 (7th Sem SGPA: 8.57)</p>
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span>Problem Solving</span>
+                <div>
+                  <h4 className="font-semibold">Tukaram Kayande Higher Secondary School</h4>
+                  <p className="text-sm text-gray-600">HSC - 85.67%</p>
+                  <p className="text-sm text-gray-600">2022</p>
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  <span>Communication</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                  <span>Time Management</span>
+                <div>
+                  <h4 className="font-semibold">Shakar Vidya Mandir School</h4>
+                  <p className="text-sm text-gray-600">SSC - 81.40%</p>
+                  <p className="text-sm text-gray-600">2020</p>
                 </div>
               </div>
             </CardContent>
@@ -302,7 +332,7 @@ export default function Portfolio() {
         {/* Leadership */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl">Leadership & Volunteer Work</CardTitle>
+            <CardTitle className="text-2xl">Leadership & Activities</CardTitle>
             <CardDescription>Community involvement and leadership roles</CardDescription>
           </CardHeader>
           <CardContent>
@@ -312,7 +342,7 @@ export default function Portfolio() {
                   <span className="text-blue-600 font-bold">PR</span>
                 </div>
                 <h4 className="font-semibold mb-1">Public Relations Head</h4>
-                <p className="text-sm text-gray-600">AI Coding Club</p>
+                <p className="text-sm text-gray-600">AICC (GHRCEM) - 2025</p>
               </div>
 
               <div className="text-center p-4 border rounded-lg">
@@ -320,7 +350,7 @@ export default function Portfolio() {
                   <span className="text-green-600 font-bold">FS</span>
                 </div>
                 <h4 className="font-semibold mb-1">Finance & Sponsorship Head</h4>
-                <p className="text-sm text-gray-600">E-Cell</p>
+                <p className="text-sm text-gray-600">E-Cell (GHRCEM) - 2025</p>
               </div>
 
               <div className="text-center p-4 border rounded-lg">
@@ -328,7 +358,7 @@ export default function Portfolio() {
                   <span className="text-orange-600 font-bold">NSS</span>
                 </div>
                 <h4 className="font-semibold mb-1">NSS Volunteer</h4>
-                <p className="text-sm text-gray-600">Jan 2024 – Present</p>
+                <p className="text-sm text-gray-600">2022 – 2025</p>
               </div>
             </div>
           </CardContent>

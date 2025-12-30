@@ -37,71 +37,76 @@ export default function CVPage() {
           </div>
 
           <div class="section">
-            <h2>Professional Summary</h2>
-            <p>Final-year B.Tech Computer Science (AI) student with hands-on experience in data analytics, Python, and deep learning. Skilled in tools like Tableau, Power BI, and SQL. Interned with IIT Patna on image processing and AI-based disaster prediction. Looking for internships or entry-level roles in data science or AI.</p>
+            <h2>Summary</h2>
+            <p>Final-year B.Tech Computer Science (AI) student with academic and internship exposure to applied machine learning and computer vision. Experience using Python to implement CNN-based models and solve problem-oriented tasks, along with foundational understanding of software development concepts such as object-oriented programming and data structures.</p>
           </div>
 
           <div class="section">
-            <h2>Education</h2>
-            <p><strong>B.Tech – Savitribai Phule Pune University (2022–2026)</strong> | CGPA: 7.65</p>
-            <p><strong>HSC – Tukaram Kayande Higher Secondary School (2022)</strong> | 85.67%</p>
-            <p><strong>SSC – Shakar Vidya Mandir School (2020)</strong> | 81.40%</p>
+            <h2>Technical Skills</h2>
+            <p><strong>AI / ML:</strong> Convolutional Neural Networks (CNNs), Basic Image Processing</p>
+            <p><strong>Programming:</strong> Python, SQL (Basics)</p>
+            <p><strong>Web Basics:</strong> HTML, CSS, JavaScript (Basics)</p>
+            <p><strong>Programming Fundamentals:</strong> Object-Oriented Programming, Data Structures (Basics)</p>
+            <p><strong>Tools:</strong> Jupyter Notebook, Google Colab, VS Code</p>
           </div>
 
           <div class="section">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-              <div>
-                <p><strong>Technical:</strong> Python (Pandas, NumPy, Seaborn), SQL, Data Cleaning, Data Visualization</p>
-                <p><strong>Tools:</strong> Power BI, Tableau, Excel (PivotTables), Jupyter Notebook</p>
-              </div>
-              <div>
-                <p><strong>Soft Skills:</strong> Leadership, Problem Solving, Communication, Time Management, Critical Thinking</p>
-              </div>
-            </div>
+            <h2>Experience</h2>
+            <h3>AI & Deep Learning Intern – IIT Patna (May 2024 – Jul 2024)</h3>
+            <p><em>Research Internship, Patna, India</em></p>
+            <ul>
+              <li>Worked on CNN-based deep learning models for disaster prediction using image-based datasets as part of a research internship</li>
+              <li>Implemented CNN architectures and applied image preprocessing techniques using Python</li>
+            </ul>
+            
+            <h3>Campus Ambassador – Pregrad (Oct 2023 – Nov 2023)</h3>
+            <p><em>Marketing & Outreach, Remote</em></p>
+            <ul>
+              <li>Promoted platform services and supported student engagement initiatives</li>
+            </ul>
           </div>
 
           <div class="section">
             <h2>Projects</h2>
             <h3>Pneumonia Detection Using CNN (Jun 2024 – Nov 2024)</h3>
             <ul>
-              <li>Built a CNN-based tool to detect pneumonia from chest X-rays</li>
-              <li>Achieved high accuracy using trained deep learning model</li>
+              <li>Designed and trained a CNN-based system to classify pneumonia from chest X-ray images</li>
+              <li>Applied image preprocessing techniques and model tuning to improve classification performance on medical image data</li>
             </ul>
             
-            <h3>Lernifyy3 – Udemy Replica (Dec 2023 – May 2024)</h3>
+            <h3>Skin Tone Detection & Recommendation System (Jun 2025 – Nov 2025)</h3>
             <ul>
-              <li>Developed a platform offering video courses, tests, and analytics</li>
-              <li>Features included daily scores, test tracking, and personal dashboards</li>
+              <li>Built a custom CNN model using the UTKFace dataset (23,000+ images) for skin-tone classification</li>
+              <li>Achieved 81.12% accuracy across five classes using batch normalization and model optimization</li>
+              <li>Project implementations and code maintained locally and available upon request</li>
             </ul>
           </div>
 
           <div class="section">
-            <h2>Internships</h2>
-            <h3>AI & Deep Learning Intern – IIT Patna (May 2024 – Jul 2024)</h3>
-            <ul>
-              <li>Worked on AI models for disaster prediction</li>
-              <li>Focused on image processing & research-based development</li>
-            </ul>
-            
-            <h3>Campus Ambassador – Pregrad (Oct 2023 – Nov 2023)</h3>
-            <ul>
-              <li>Promoted platform services & student engagement activities</li>
-            </ul>
+            <h2>Education</h2>
+            <p><strong>Savitribai Phule Pune University (2022 – 2026)</strong></p>
+            <p>B.Tech in Computer Science (AI) — CGPA: 7.47 (7th Sem SGPA: 8.57)</p>
+            <p>Pune, India</p>
+            <br>
+            <p><strong>Tukaram Kayande Higher Secondary School (2022)</strong></p>
+            <p>Higher Secondary Certificate (HSC) — 85.67%</p>
+            <p>Maharashtra, India</p>
+            <br>
+            <p><strong>Shakar Vidya Mandir School (2020)</strong></p>
+            <p>Secondary School Certificate (SSC) — 81.40%</p>
+            <p>Maharashtra, India</p>
           </div>
 
           <div class="section">
-            <h2>Leadership & Volunteer</h2>
-            <ul>
-              <li>Public Relations Head – AI Coding Club (GHRCEM)</li>
-              <li>Finance & Sponsorship Head – E-Cell (GHRCEM)</li>
-              <li>Volunteer – National Service Scheme (Jan 2024 – Present)</li>
-            </ul>
+            <h2>Leadership & Activities</h2>
+            <p><strong>Public Relations Head</strong> – AICC (GHRCEM), 2025</p>
+            <p><strong>Finance & Sponsorship Head</strong> – E-Cell (GHRCEM), 2025</p>
+            <p><strong>Volunteer</strong> – National Service Scheme (NSS), 2022 – 2025</p>
           </div>
 
           <div class="section">
             <h2>Languages</h2>
-            <p>English, Hindi, Marathi</p>
+            <p>English (Professional), Hindi (Native), Marathi (Native)</p>
           </div>
         </body>
         </html>
@@ -140,51 +145,61 @@ export default function CVPage() {
 
               {/* Professional Summary */}
               <div>
-                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">
-                  Professional Summary
-                </h2>
+                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Summary</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Final-year B.Tech Computer Science (AI) student with hands-on experience in data analytics, Python,
-                  and deep learning. Skilled in tools like Tableau, Power BI, and SQL. Interned with IIT Patna on image
-                  processing and AI-based disaster prediction. Looking for internships or entry-level roles in data
-                  science or AI.
+                  Final-year B.Tech Computer Science (AI) student with academic and internship exposure to applied
+                  machine learning and computer vision. Experience using Python to implement CNN-based models and solve
+                  problem-oriented tasks, along with foundational understanding of software development concepts such as
+                  object-oriented programming and data structures.
                 </p>
               </div>
 
-              {/* Education */}
+              {/* Technical Skills */}
               <div>
-                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Education</h2>
+                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Technical Skills</h2>
                 <div className="space-y-2">
                   <p>
-                    <strong>B.Tech – Savitribai Phule Pune University (2022–2026)</strong> | CGPA: 7.65
+                    <strong>AI / ML:</strong> Convolutional Neural Networks (CNNs), Basic Image Processing
                   </p>
                   <p>
-                    <strong>HSC – Tukaram Kayande Higher Secondary School (2022)</strong> | 85.67%
+                    <strong>Programming:</strong> Python, SQL (Basics)
                   </p>
                   <p>
-                    <strong>SSC – Shakar Vidya Mandir School (2020)</strong> | 81.40%
+                    <strong>Web Basics:</strong> HTML, CSS, JavaScript (Basics)
+                  </p>
+                  <p>
+                    <strong>Programming Fundamentals:</strong> Object-Oriented Programming, Data Structures (Basics)
+                  </p>
+                  <p>
+                    <strong>Tools:</strong> Jupyter Notebook, Google Colab, VS Code
                   </p>
                 </div>
               </div>
 
-              {/* Skills */}
+              {/* Experience */}
               <div>
-                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Skills</h2>
-                <div className="grid md:grid-cols-2 gap-4">
+                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Experience</h2>
+                <div className="space-y-4">
                   <div>
-                    <p className="mb-2">
-                      <strong>Technical:</strong> Python (Pandas, NumPy, Seaborn), SQL, Data Cleaning, Data
-                      Visualization
+                    <h3 className="font-semibold mb-1">AI & Deep Learning Intern – IIT Patna</h3>
+                    <p className="text-sm text-gray-600 mb-2">
+                      May 2024 – Jul 2024 | Research Internship, Patna, India
                     </p>
-                    <p>
-                      <strong>Tools:</strong> Power BI, Tableau, Excel (PivotTables), Jupyter Notebook
-                    </p>
+                    <ul className="list-disc list-inside space-y-1 text-gray-700">
+                      <li>
+                        Worked on CNN-based deep learning models for disaster prediction using image-based datasets as
+                        part of a research internship
+                      </li>
+                      <li>Implemented CNN architectures and applied image preprocessing techniques using Python</li>
+                    </ul>
                   </div>
+
                   <div>
-                    <p>
-                      <strong>Soft Skills:</strong> Leadership, Problem Solving, Communication, Time Management,
-                      Critical Thinking
-                    </p>
+                    <h3 className="font-semibold mb-1">Campus Ambassador – Pregrad</h3>
+                    <p className="text-sm text-gray-600 mb-2">Oct 2023 – Nov 2023 | Marketing & Outreach, Remote</p>
+                    <ul className="list-disc list-inside space-y-1 text-gray-700">
+                      <li>Promoted platform services and supported student engagement initiatives</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -196,38 +211,49 @@ export default function CVPage() {
                   <div>
                     <h3 className="font-semibold mb-2">Pneumonia Detection Using CNN (Jun 2024 – Nov 2024)</h3>
                     <ul className="list-disc list-inside space-y-1 text-gray-700">
-                      <li>Built a CNN-based tool to detect pneumonia from chest X-rays</li>
-                      <li>Achieved high accuracy using trained deep learning model</li>
+                      <li>Designed and trained a CNN-based system to classify pneumonia from chest X-ray images</li>
+                      <li>
+                        Applied image preprocessing techniques and model tuning to improve classification performance on
+                        medical image data
+                      </li>
                     </ul>
                   </div>
 
                   <div>
-                    <h3 className="font-semibold mb-2">Lernifyy3 – Udemy Replica (Dec 2023 – May 2024)</h3>
+                    <h3 className="font-semibold mb-2">
+                      Skin Tone Detection & Recommendation System (Jun 2025 – Nov 2025)
+                    </h3>
                     <ul className="list-disc list-inside space-y-1 text-gray-700">
-                      <li>Developed a platform offering video courses, tests, and analytics</li>
-                      <li>Features included daily scores, test tracking, and personal dashboards</li>
+                      <li>
+                        Built a custom CNN model using the UTKFace dataset (23,000+ images) for skin-tone classification
+                      </li>
+                      <li>
+                        Achieved 81.12% accuracy across five classes using batch normalization and model optimization
+                      </li>
+                      <li>Project implementations and code maintained locally and available upon request</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
-              {/* Internships */}
+              {/* Education */}
               <div>
-                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Internships</h2>
-                <div className="space-y-4">
+                <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Education</h2>
+                <div className="space-y-3">
                   <div>
-                    <h3 className="font-semibold mb-2">AI & Deep Learning Intern – IIT Patna (May 2024 – Jul 2024)</h3>
-                    <ul className="list-disc list-inside space-y-1 text-gray-700">
-                      <li>Worked on AI models for disaster prediction</li>
-                      <li>Focused on image processing & research-based development</li>
-                    </ul>
+                    <p className="font-semibold">Savitribai Phule Pune University (2022 – 2026)</p>
+                    <p className="text-gray-700">B.Tech in Computer Science (AI) — CGPA: 7.47 (7th Sem SGPA: 8.57)</p>
+                    <p className="text-sm text-gray-600">Pune, India</p>
                   </div>
-
                   <div>
-                    <h3 className="font-semibold mb-2">Campus Ambassador – Pregrad (Oct 2023 – Nov 2023)</h3>
-                    <ul className="list-disc list-inside space-y-1 text-gray-700">
-                      <li>Promoted platform services & student engagement activities</li>
-                    </ul>
+                    <p className="font-semibold">Tukaram Kayande Higher Secondary School (2022)</p>
+                    <p className="text-gray-700">Higher Secondary Certificate (HSC) — 85.67%</p>
+                    <p className="text-sm text-gray-600">Maharashtra, India</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold">Shakar Vidya Mandir School (2020)</p>
+                    <p className="text-gray-700">Secondary School Certificate (SSC) — 81.40%</p>
+                    <p className="text-sm text-gray-600">Maharashtra, India</p>
                   </div>
                 </div>
               </div>
@@ -235,19 +261,25 @@ export default function CVPage() {
               {/* Leadership & Volunteer */}
               <div>
                 <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">
-                  Leadership & Volunteer
+                  Leadership & Activities
                 </h2>
-                <ul className="list-disc list-inside space-y-1 text-gray-700">
-                  <li>Public Relations Head – AI Coding Club (GHRCEM)</li>
-                  <li>Finance & Sponsorship Head – E-Cell (GHRCEM)</li>
-                  <li>Volunteer – National Service Scheme (Jan 2024 – Present)</li>
-                </ul>
+                <div className="space-y-2 text-gray-700">
+                  <p>
+                    <strong>Public Relations Head</strong> – AICC (GHRCEM), 2025
+                  </p>
+                  <p>
+                    <strong>Finance & Sponsorship Head</strong> – E-Cell (GHRCEM), 2025
+                  </p>
+                  <p>
+                    <strong>Volunteer</strong> – National Service Scheme (NSS), 2022 – 2025
+                  </p>
+                </div>
               </div>
 
               {/* Languages */}
               <div>
                 <h2 className="text-xl font-bold text-blue-600 border-b border-blue-600 pb-2 mb-4">Languages</h2>
-                <p className="text-gray-700">English, Hindi, Marathi</p>
+                <p className="text-gray-700">English (Professional), Hindi (Native), Marathi (Native)</p>
               </div>
             </div>
           </CardContent>
