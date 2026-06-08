@@ -4,44 +4,52 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
-import { Mail, Phone, MapPin, Linkedin, Download, Award, Users } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin, Download, Award, Users, Github, ExternalLink, Sparkles, Code2, Brain } from "lucide-react"
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950">
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-900 to-blue-800 text-white">
-        <div className="container mx-auto px-6 py-12 text-center">
-          <h1 className="text-5xl font-bold mb-2">Saif Sayyad</h1>
-          <p className="text-xl mb-4 text-blue-100">B.Tech Computer Science (AI) | CGPA: 7.47</p>
+      <header className="relative overflow-hidden border-b border-white/10">
+        {/* Animated gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 to-transparent pointer-events-none"></div>
+        
+        <div className="container mx-auto px-6 py-20 text-center relative z-10">
+          <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-500/10">
+            <Sparkles className="w-4 h-4 text-blue-400" />
+            <span className="text-sm text-blue-300">AI & Machine Learning Engineer</span>
+          </div>
+          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
+            Saif Sayyad
+          </h1>
+          <p className="text-xl mb-6 text-slate-300">B.Tech Computer Science (AI) • CGPA: 7.47 • Final Year</p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
-            <div className="flex items-center gap-2">
+          <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm text-slate-300">
+            <div className="flex items-center gap-2 hover:text-blue-300 transition-colors">
               <MapPin className="w-4 h-4" />
               <span>Pune, Maharashtra</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 hover:text-blue-300 transition-colors">
               <Mail className="w-4 h-4" />
-              <a href="mailto:aaamansayyad.131@gmail.com" className="hover:text-blue-200 transition-colors">
+              <a href="mailto:aaamansayyad.131@gmail.com" className="hover:underline">
                 aaamansayyad.131@gmail.com
               </a>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 hover:text-blue-300 transition-colors">
               <Phone className="w-4 h-4" />
               <span>+91-7798692515</span>
             </div>
           </div>
 
-          <div className="flex justify-center gap-4">
-            <Button variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
+          <div className="flex justify-center gap-3 flex-wrap">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white border-0" asChild>
               <a href="https://linkedin.com/in/saif-sayyad-ab7ba0250" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </a>
             </Button>
             <Button
-              variant="outline"
-              className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+              className="border border-blue-400/50 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 bg-transparent"
               onClick={() => {
                 // Create CV content
                 const cvContent = `
