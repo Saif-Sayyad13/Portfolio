@@ -278,14 +278,20 @@ export default function Portfolio() {
                   <Badge className="bg-blue-600/50 text-blue-200">SQLite</Badge>
                   <Badge className="bg-blue-600/50 text-blue-200">Streamlit</Badge>
                 </div>
-                <div className="flex gap-3 pt-4">
-                  <Button size="sm" className="bg-cyan-600 hover:bg-cyan-700" asChild>
-                    <a href="https://healthbridgeai.streamlit.app" target="_blank" rel="noopener noreferrer">
+                <div className="flex gap-3 pt-4 flex-wrap">
+                  <Button size="sm" className="bg-cyan-600 hover:bg-cyan-700 transition-all hover:shadow-lg hover:shadow-cyan-500/50" asChild>
+                    <a href="https://healthbridgeaii.netlify.app" target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      View Live
+                      Frontend (Main)
                     </a>
                   </Button>
-                  <Button size="sm" className="bg-slate-700 hover:bg-slate-600" asChild>
+                  <Button size="sm" className="bg-blue-600 hover:bg-blue-700 transition-all hover:shadow-lg hover:shadow-blue-500/50" asChild>
+                    <a href="https://healthbridgeaiai.streamlit.app" target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Streamlit Version
+                    </a>
+                  </Button>
+                  <Button size="sm" className="bg-slate-700 hover:bg-slate-600 transition-all" asChild>
                     <a href="https://github.com/AmanSayyad13/Health-Bridge-AI" target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
                       GitHub
@@ -298,24 +304,37 @@ export default function Portfolio() {
             {/* Skin Tone Detection */}
             <Card className="glass-effect card-hover border-purple-500/30 bg-purple-950/20">
               <CardHeader>
-                <CardTitle className="text-xl text-purple-300">Skin Tone Detection & Recommendation System</CardTitle>
-                <CardDescription className="text-slate-400">CNN-based Classification • Jun 2025 – Nov 2025</CardDescription>
+                <div className="flex items-start justify-between gap-4 flex-wrap">
+                  <div>
+                    <CardTitle className="text-xl text-purple-300">Skin Tone Detection & Recommendation System</CardTitle>
+                    <CardDescription className="text-slate-400">CNN-based Classification • Jun 2025 – Nov 2025</CardDescription>
+                  </div>
+                  <Badge className="bg-purple-600 whitespace-nowrap">Published</Badge>
+                </div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-slate-300">
-                  Custom CNN model trained on 23,000+ images from UTKFace dataset for skin-tone classification across 5 categories. Achieved 81.12% accuracy using batch normalization and hyperparameter tuning.
+                  Custom CNN model trained on 23,000+ images from UTKFace dataset for skin-tone classification across 5 categories. Achieved 81.12% accuracy using batch normalization and hyperparameter tuning. Published in IEEE conference proceedings.
                 </p>
                 <ul className="space-y-2 text-slate-300 text-sm">
                   <li>✓ Trained on 23,000+ images with advanced preprocessing</li>
                   <li>✓ 81.12% classification accuracy across 5 categories</li>
                   <li>✓ Batch normalization and dropout regularization</li>
-                  <li>✓ Image augmentation and normalization techniques</li>
+                  <li>✓ Published paper: IEEE Xplore (2024)</li>
                 </ul>
                 <div className="flex gap-2 flex-wrap">
                   <Badge className="bg-purple-600/50 text-purple-200">Python</Badge>
                   <Badge className="bg-purple-600/50 text-purple-200">CNN</Badge>
                   <Badge className="bg-purple-600/50 text-purple-200">TensorFlow</Badge>
                   <Badge className="bg-purple-600/50 text-purple-200">Computer Vision</Badge>
+                </div>
+                <div className="flex gap-3 pt-4">
+                  <Button size="sm" className="bg-purple-600 hover:bg-purple-700 transition-all hover:shadow-lg hover:shadow-purple-500/50" asChild>
+                    <a href="https://ieeexplore.ieee.org/document/11377529" target="_blank" rel="noopener noreferrer">
+                      <BookOpen className="w-4 h-4 mr-2" />
+                      Read Paper
+                    </a>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
