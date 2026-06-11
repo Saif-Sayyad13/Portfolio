@@ -66,17 +66,24 @@ export default function CVPage() {
 
           <div class="section">
             <h2>Projects</h2>
-            <h3>Pneumonia Detection Using CNN (Jun 2024 – Nov 2024)</h3>
+            <h3>HealthBridge AI - Healthcare Platform (Full Stack)</h3>
             <ul>
-              <li>Designed and trained a CNN-based system to classify pneumonia from chest X-ray images</li>
-              <li>Applied image preprocessing techniques and model tuning to improve classification performance on medical image data</li>
+              <li>Developed production-deployed healthcare AI platform using Python, FastAPI, JWT authentication, and Groq's Llama 3.3 LLM</li>
+              <li>Built secure REST APIs with SQLite backend, addressing uninformed self-medication affecting 70% of Indians</li>
+              <li>Frontend: https://healthbridgeaii.netlify.app | Streamlit: https://healthbridgeaiai.streamlit.app</li>
             </ul>
             
-            <h3>Skin Tone Detection & Recommendation System (Jun 2025 – Nov 2025)</h3>
+            <h3>Skin Tone Detection & Recommendation System (Published - IEEE)</h3>
             <ul>
               <li>Built a custom CNN model using the UTKFace dataset (23,000+ images) for skin-tone classification</li>
               <li>Achieved 81.12% accuracy across five classes using batch normalization and model optimization</li>
-              <li>Project implementations and code maintained locally and available upon request</li>
+              <li>Published Research Paper: https://ieeexplore.ieee.org/document/11377529</li>
+            </ul>
+
+            <h3>Pneumonia Detection Using CNN</h3>
+            <ul>
+              <li>Designed and trained a CNN-based system to classify pneumonia from chest X-ray images</li>
+              <li>Applied image preprocessing techniques and model tuning to improve classification performance on medical image data</li>
             </ul>
           </div>
 
@@ -133,16 +140,16 @@ export default function CVPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 py-8">
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex justify-between items-center mb-8 flex-wrap gap-4">
           <Link href="/">
-            <Button variant="outline">
+            <Button className="border border-blue-400/50 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 bg-transparent transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Portfolio
             </Button>
           </Link>
-          <Button onClick={handleDownload} className="bg-blue-600 hover:bg-blue-700">
+          <Button onClick={handleDownload} className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 animate-pulse-glow">
             <Download className="w-4 h-4 mr-2" />
             Download/Print CV
           </Button>

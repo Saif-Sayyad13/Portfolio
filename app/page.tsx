@@ -15,11 +15,11 @@ export default function Portfolio() {
         <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 to-transparent pointer-events-none"></div>
         
         <div className="container mx-auto px-6 py-20 text-center relative z-10">
-          <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-500/10">
-            <Sparkles className="w-4 h-4 text-blue-400" />
+          <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-500/10 animate-fade-in-up">
+            <Sparkles className="w-4 h-4 text-blue-400 animate-pulse" />
             <span className="text-sm text-blue-300">Full-Stack AI Developer</span>
           </div>
-          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
+          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-400 bg-clip-text text-transparent animate-fade-in-up" style={{animationDelay: '0.1s'}}>
             Saif Sayyad
           </h1>
           <p className="text-xl mb-6 text-slate-300">B.Tech Computer Science (AI) • CGPA: 7.47 • Final Year</p>
@@ -42,26 +42,26 @@ export default function Portfolio() {
           </div>
 
           <div className="flex justify-center gap-3 flex-wrap">
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white border-0" asChild>
+            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white border-0 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50 transform hover:scale-105" asChild>
               <a href="https://linkedin.com/in/saif-sayyad-ab7ba0250" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </a>
             </Button>
-            <Button className="bg-slate-700 hover:bg-slate-600 text-white border-0" asChild>
+            <Button className="bg-gradient-to-r from-slate-700 to-slate-800 hover:from-slate-800 hover:to-slate-900 text-white border-0 transition-all duration-300 hover:shadow-lg hover:shadow-slate-500/50 transform hover:scale-105" asChild>
               <a href="https://github.com/AmanSayyad13" target="_blank" rel="noopener noreferrer">
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
               </a>
             </Button>
-            <Button className="bg-cyan-600 hover:bg-cyan-700 text-white border-0" asChild>
-              <a href="https://healthbridgeai.streamlit.app" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white border-0 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 transform hover:scale-105" asChild>
+              <a href="https://healthbridgeaii.netlify.app" target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="w-4 h-4 mr-2" />
                 Live Projects
               </a>
             </Button>
             <Button
-              className="border border-blue-400/50 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 bg-transparent"
+              className="border border-blue-400/50 hover:bg-blue-500/20 text-blue-300 hover:text-blue-200 bg-transparent transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50 transform hover:scale-105 animate-pulse-glow"
               onClick={() => {
                 const printWindow = window.open("", "_blank")
                 if (printWindow) {
